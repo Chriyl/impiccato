@@ -32,6 +32,8 @@ int main()
         parole->push_back(parola);
     }
 
+    file.close();
+
 
     int lenFile = parole->size();
     
@@ -39,7 +41,7 @@ int main()
     delete parole;
 
     int lenWord = plainWord.size();
-    cout << plainWord << endl;
+    //cout << plainWord << endl;
 
     
 
